@@ -77,6 +77,9 @@ footer{max-width:1000px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 .dl-card:hover{border-color:var(--brand);box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .dl-ext{background:var(--brand);color:#fff;font-weight:700;font-size:.72rem;padding:6px 8px;border-radius:6px}
 .dl-label{font-size:.9rem;font-weight:600}
+.res-card{align-items:flex-start}
+.res-tx{display:flex;flex-direction:column;gap:2px}
+.res-desc{font-size:.78rem;color:var(--muted);font-weight:400}
 .toolbar{display:flex;gap:8px;justify-content:flex-end;max-width:1000px;margin:8px auto 0;padding:0 16px}
 .toolbar button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 12px;cursor:pointer;font-size:.82rem}
 @media print{
@@ -91,7 +94,7 @@ footer{max-width:1000px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 <h1>Pack 925 &mdash; Aligned Den Plan</h1>
 <p>Cub Scout program year 2026-2027 &middot; Two aligned den weeks a month &middot; All required adventures done by the April 29 awards</p>
 </header>
-<nav class="tabs"><button data-tab="overview" class="active">Overview</button><button data-tab="lion">Lion</button><button data-tab="tiger">Tiger</button><button data-tab="wolf">Wolf</button><button data-tab="bear">Bear</button><button data-tab="webelos">Webelos</button><button data-tab="aol">Arrow of Light</button><button data-tab="denchief">Den Chief Playbook</button><button data-tab="downloads">Downloads</button></nav>
+<nav class="tabs"><button data-tab="overview" class="active">Overview</button><button data-tab="lion">Lion</button><button data-tab="tiger">Tiger</button><button data-tab="wolf">Wolf</button><button data-tab="bear">Bear</button><button data-tab="webelos">Webelos</button><button data-tab="aol">Arrow of Light</button><button data-tab="denchief">Den Chief Playbook</button><button data-tab="resources">Printable Resources</button><button data-tab="downloads">Downloads</button></nav>
 <div class="toolbar"><button id="printBtn">Print / Save as PDF</button></div>
 <main>
 <section class="den-panel active" id="panel-overview">
@@ -5575,17 +5578,23 @@ footer{max-width:1000px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 <p><strong>Cub Scout Motto:</strong> Do Your Best.</p>
 <p><strong>Cub Scout Six Essentials:</strong> 1) Water bottle, 2) Flashlight, 3) First-aid kit, 4) Trail food/snack, 5) Sun protection, 6) Whistle. (A jacket/rain gear is a smart &#x27;plus one.&#x27;)</p>
 </div>
-</section><section class="den-panel" id="panel-downloads">
+</section><section class="den-panel" id="panel-resources">
+<div class="den-hero"><h2>Printable Resources</h2><p class="den-note">Colorful, print-ready cards for young Cub Scouts. Open one, then use its <strong>Print / Save as PDF</strong> button. Great for the Bobcat adventure, den walls, and take-home packets.</p></div>
+<div class="dl-grid">
+<a class="dl-card res-card" href="resources/scout-oath.html" target="_blank" rel="noopener"><span class="dl-ext">PRINT</span><span class="res-tx"><span class="dl-label">Scout Oath card</span><span class="res-desc">Printable Oath card with emblem and the three duties</span></span></a>
+<a class="dl-card res-card" href="resources/scout-law.html" target="_blank" rel="noopener"><span class="dl-ext">PRINT</span><span class="res-tx"><span class="dl-label">Scout Law card</span><span class="res-desc">All 12 points with icons and kid-friendly meanings</span></span></a>
+<a class="dl-card res-card" href="resources/sign-salute-handshake.html" target="_blank" rel="noopener"><span class="dl-ext">PRINT</span><span class="res-tx"><span class="dl-label">Sign, Salute &amp; Handshake</span><span class="res-desc">How to do each and when to use them</span></span></a>
+</div></section><section class="den-panel" id="panel-downloads">
 <div class="den-hero"><h2>Downloads</h2><p class="den-note">Printable Word guides (one per den + a master) and an Excel planning grid with a completion tracker. Same content as this site - handy for printing and handing to Den Chiefs.</p></div>
 <div class="dl-grid">
-<a class="dl-card" href="downloads/Pack 925 - Master Aligned Den Plan.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Master plan (all dens) - Word</span></a>
-<a class="dl-card" href="downloads/Pack 925 - Den Planning Grid.xlsx?v=20260702b" download><span class="dl-ext">XLSX</span><span class="dl-label">Planning grid + completion tracker - Excel</span></a>
-<a class="dl-card" href="downloads/Den Guide - Lion.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Lion den guide - Word</span></a>
-<a class="dl-card" href="downloads/Den Guide - Tiger.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Tiger den guide - Word</span></a>
-<a class="dl-card" href="downloads/Den Guide - Wolf.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Wolf den guide - Word</span></a>
-<a class="dl-card" href="downloads/Den Guide - Bear.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Bear den guide - Word</span></a>
-<a class="dl-card" href="downloads/Den Guide - Webelos.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Webelos den guide - Word</span></a>
-<a class="dl-card" href="downloads/Den Guide - Arrow of Light.docx?v=20260702b" download><span class="dl-ext">DOCX</span><span class="dl-label">Arrow of Light den guide - Word</span></a>
+<a class="dl-card" href="downloads/Pack 925 - Master Aligned Den Plan.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Master plan (all dens) - Word</span></a>
+<a class="dl-card" href="downloads/Pack 925 - Den Planning Grid.xlsx?v=20260702c" download><span class="dl-ext">XLSX</span><span class="dl-label">Planning grid + completion tracker - Excel</span></a>
+<a class="dl-card" href="downloads/Den Guide - Lion.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Lion den guide - Word</span></a>
+<a class="dl-card" href="downloads/Den Guide - Tiger.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Tiger den guide - Word</span></a>
+<a class="dl-card" href="downloads/Den Guide - Wolf.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Wolf den guide - Word</span></a>
+<a class="dl-card" href="downloads/Den Guide - Bear.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Bear den guide - Word</span></a>
+<a class="dl-card" href="downloads/Den Guide - Webelos.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Webelos den guide - Word</span></a>
+<a class="dl-card" href="downloads/Den Guide - Arrow of Light.docx?v=20260702c" download><span class="dl-ext">DOCX</span><span class="dl-label">Arrow of Light den guide - Word</span></a>
 </div></section>
 </main>
 <footer>

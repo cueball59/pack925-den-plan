@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scout Law - Cub Scout Card</title>
+<style>
+:root{--navy:#12284c;--gold:#f5b301;--red:#ce1126;--cream:#fffdf5;--ink:#1f2430;}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#e9edf3;color:var(--ink)}
+.sheet{width:8.5in;min-height:11in;margin:16px auto;background:var(--cream);position:relative;
+padding:0.5in 0.55in;box-shadow:0 4px 18px rgba(0,0,0,.15);overflow:hidden}
+.sheet::before{content:"";position:absolute;inset:0.2in;border:5px solid var(--gold);border-radius:20px;pointer-events:none}
+.inner{position:relative;z-index:2}
+.head{text-align:center;margin-bottom:12px}
+.head h1{font-size:30px;margin:6px 0 0;color:var(--navy)}
+.head .sub{color:var(--red);font-weight:700;text-transform:uppercase;letter-spacing:3px;font-size:12px;margin-top:2px}
+.head p{margin:6px 0 0;font-size:13px;color:#444;font-style:italic}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:8px}
+.pt{display:flex;gap:10px;align-items:center;background:#fff;border:2px solid var(--navy);border-radius:12px;padding:8px 10px}
+.pt .ic{flex:0 0 42px;width:42px;height:42px}
+.pt .tx b{display:block;color:var(--red);font-size:15px;line-height:1.1}
+.pt .tx span{font-size:11.5px;color:#333;line-height:1.25}
+.crest{width:auto;height:70px;display:block;margin:0 auto;border-radius:9px;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+.foot{text-align:center;margin-top:12px;font-size:11px;color:#6a6f7a}
+@media print{body{background:#fff}.sheet{margin:0;box-shadow:none}.noprint{display:none}}
+.bar{max-width:8.5in;margin:10px auto;text-align:right}
+.bar button{border:0;background:var(--navy);color:#fff;padding:9px 16px;border-radius:8px;font-size:14px;cursor:pointer}
+</style></head>
+<body>
+<div class="bar noprint"><button onclick="window.print()">Print / Save as PDF</button></div>
+<div class="sheet"><div class="inner">
+  <div class="head">
+    <img class="crest" src="cub-scouts-logo.png" alt="Cub Scouts logo">
+    <h1>The Scout Law</h1>
+    <div class="sub">Cub Scout Pack 925</div>
+    <p>A Scout is&hellip;</p>
+  </div>
+  <div class="grid">
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#eaf2ff" stroke="#12284c" stroke-width="2"/><path d="M22 10 l3 6 6 .8 -4.5 4.3 1.2 6.4 -5.7-3.2 -5.7 3.2 1.2-6.4 -4.5-4.3 6-.8Z" fill="#f5b301" stroke="#12284c" stroke-width="1"/></svg><div class="tx"><b>Trustworthy</b><span>I tell the truth and keep my promises.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff4e6" stroke="#12284c" stroke-width="2"/><path d="M22 32 C12 25 12 15 20 15 C22 15 22 18 22 18 C22 18 22 15 24 15 C32 15 32 25 22 32Z" fill="#ce1126"/></svg><div class="tx"><b>Loyal</b><span>I stand by my family, friends, and country.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#eafaf0" stroke="#12284c" stroke-width="2"/><path d="M14 26 c6-8 10-8 16 0" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/><circle cx="22" cy="17" r="4" fill="#2e7d32"/></svg><div class="tx"><b>Helpful</b><span>I help other people every day.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fdeef2" stroke="#12284c" stroke-width="2"/><circle cx="17" cy="20" r="4" fill="#12284c"/><circle cx="27" cy="20" r="4" fill="#12284c"/><path d="M15 27 c4 5 10 5 14 0" fill="none" stroke="#ce1126" stroke-width="3" stroke-linecap="round"/></svg><div class="tx"><b>Friendly</b><span>I am a friend to everyone I meet.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#eef0ff" stroke="#12284c" stroke-width="2"/><path d="M22 12 v6 M14 30 c4-4 12-4 16 0" fill="none" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/><circle cx="22" cy="22" r="3" fill="#3949ab"/></svg><div class="tx"><b>Courteous</b><span>I use good manners and say please and thank you.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff4e6" stroke="#12284c" stroke-width="2"/><path d="M22 31 C13 24 13 15 21 15 C22 15 22 18 22 18 C22 18 22 15 23 15 C31 15 31 24 22 31Z" fill="#ce1126"/><circle cx="18" cy="20" r="1.5" fill="#fff"/></svg><div class="tx"><b>Kind</b><span>I am gentle and care about others and animals.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#eafaf0" stroke="#12284c" stroke-width="2"/><path d="M14 22 l6 6 10-12" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="tx"><b>Obedient</b><span>I follow the rules of my family, school, and pack.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fffbe6" stroke="#12284c" stroke-width="2"/><circle cx="22" cy="22" r="7" fill="#f5b301"/><g stroke="#f5b301" stroke-width="3" stroke-linecap="round"><path d="M22 7v5M22 32v5M7 22h5M32 22h5M11 11l3 3M31 31l3 3M33 11l-3 3M13 31l-3 3"/></g></svg><div class="tx"><b>Cheerful</b><span>I smile and look for the good in things.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#eef7f0" stroke="#12284c" stroke-width="2"/><circle cx="22" cy="22" r="9" fill="none" stroke="#2e7d32" stroke-width="3"/><path d="M22 17v10M17 22h10" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/></svg><div class="tx"><b>Thrifty</b><span>I take care of my things and do not waste.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fdeef2" stroke="#12284c" stroke-width="2"/><path d="M22 10 l4 8 -4 -2 -4 2Z" fill="#ce1126"/><rect x="20" y="16" width="4" height="18" rx="2" fill="#ce1126"/></svg><div class="tx"><b>Brave</b><span>I do the right thing even when it is hard.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#eaf6ff" stroke="#12284c" stroke-width="2"/><path d="M16 26 c0-6 12-6 12 0" fill="#4fc3f7"/><path d="M22 12 v4M22 12 c-3 2-3 6 0 8 3-2 3-6 0-8Z" fill="#4fc3f7"/></svg><div class="tx"><b>Clean</b><span>I keep my body, words, and space clean.</span></div></div>
+    <div class="pt"><svg class="ic" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#f3eefc" stroke="#12284c" stroke-width="2"/><path d="M22 12 v18 M15 20 h14" stroke="#6a3fb5" stroke-width="3" stroke-linecap="round"/><circle cx="22" cy="34" r="2.5" fill="#6a3fb5"/></svg><div class="tx"><b>Reverent</b><span>I respect my beliefs and the beliefs of others.</span></div></div>
+  </div>
+  <div class="foot">Say the Scout Law with your den &middot; Do Your Best!</div>
+</div></div>
+</body></html>

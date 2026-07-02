@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scout Oath - Cub Scout Card</title>
+<style>
+:root{--navy:#12284c;--gold:#f5b301;--red:#ce1126;--cream:#fffdf5;--ink:#1f2430;}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#e9edf3;color:var(--ink)}
+.sheet{width:8.5in;min-height:11in;margin:16px auto;background:var(--cream);position:relative;
+padding:0.55in 0.6in;box-shadow:0 4px 18px rgba(0,0,0,.15);overflow:hidden}
+.sheet::before{content:"";position:absolute;inset:0.22in;border:5px solid var(--gold);border-radius:22px;pointer-events:none}
+.sheet::after{content:"";position:absolute;inset:0.30in;border:2px solid var(--navy);border-radius:18px;pointer-events:none}
+.inner{position:relative;z-index:2;text-align:center}
+.crest{width:auto;height:96px;display:block;margin:0 auto 6px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+h1{font-size:34px;margin:4px 0 0;color:var(--navy);letter-spacing:.5px}
+.sub{color:var(--red);font-weight:700;text-transform:uppercase;letter-spacing:3px;font-size:13px;margin:2px 0 14px}
+.oath{font-size:23px;line-height:1.5;font-weight:600;color:var(--navy);max-width:6.5in;margin:0 auto}
+.oath .hi{color:var(--red)}
+.duties{display:flex;gap:14px;justify-content:center;margin:26px 0 8px;flex-wrap:wrap}
+.duty{width:2.05in;background:#fff;border:2px solid var(--navy);border-radius:16px;padding:14px 12px}
+.duty .ic{width:56px;height:56px;margin:0 auto 6px;display:block}
+.duty h3{margin:4px 0 4px;color:var(--red);font-size:15px}
+.duty p{margin:0;font-size:12.5px;line-height:1.35;color:#333}
+.signrow{margin-top:20px;display:flex;align-items:center;justify-content:center;gap:10px;color:var(--navy)}
+.signrow svg{width:52px;height:52px}
+.signrow b{font-size:15px}
+.footer{margin-top:16px;font-size:11px;color:#6a6f7a}
+@media print{body{background:#fff}.sheet{margin:0;box-shadow:none}.noprint{display:none}}
+.bar{max-width:8.5in;margin:10px auto;text-align:right}
+.bar button{border:0;background:var(--navy);color:#fff;padding:9px 16px;border-radius:8px;font-size:14px;cursor:pointer}
+</style></head>
+<body>
+<div class="bar noprint"><button onclick="window.print()">Print / Save as PDF</button></div>
+<div class="sheet"><div class="inner">
+  <img class="crest" src="cub-scouts-logo.png" alt="Cub Scouts logo">
+  <h1>The Scout Oath</h1>
+  <div class="sub">Cub Scout Pack 925</div>
+
+  <p class="oath">On my honor I will do my best<br>
+  to do my duty to <span class="hi">God</span> and my <span class="hi">country</span><br>
+  and to obey the Scout Law;<br>
+  to help other people at all times;<br>
+  to keep myself physically strong,<br>
+  mentally awake, and morally straight.</p>
+
+  <div class="duties">
+    <div class="duty">
+      <svg class="ic" viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="#eaf2ff" stroke="#12284c" stroke-width="2"/><rect x="26" y="16" width="8" height="30" rx="3" fill="#ce1126"/><rect x="18" y="24" width="24" height="8" rx="3" fill="#ce1126"/><path d="M20 44 h20" stroke="#12284c" stroke-width="3" stroke-linecap="round"/></svg>
+      <h3>Duty to God &amp; Country</h3>
+      <p>I love and help take care of my family, my faith, and my country.</p>
+    </div>
+    <div class="duty">
+      <svg class="ic" viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="#fff4e6" stroke="#12284c" stroke-width="2"/><path d="M30 42 C18 34 18 22 26 22 C30 22 30 26 30 26 C30 26 30 22 34 22 C42 22 42 34 30 42Z" fill="#ce1126" stroke="#12284c" stroke-width="1.5"/></svg>
+      <h3>Help Other People</h3>
+      <p>I do a Good Turn every day and help people at all times.</p>
+    </div>
+    <div class="duty">
+      <svg class="ic" viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="#eafaf0" stroke="#12284c" stroke-width="2"/><circle cx="30" cy="20" r="6" fill="#12284c"/><path d="M22 46 C22 34 38 34 38 46Z" fill="#2e7d32"/><path d="M16 30 l8 4 M44 30 l-8 4" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/></svg>
+      <h3>Keep Myself Strong</h3>
+      <p>Strong body, sharp mind, and always doing what is right.</p>
+    </div>
+  </div>
+
+  <div class="signrow">
+    <span style="font-size:34px;line-height:1">&#9996;&#65039;</span>
+    <b>Give the Cub Scout sign when you say the Oath!</b>
+  </div>
+  <div class="footer">Do Your Best! &middot; Say it with your right hand raised in the Cub Scout sign.</div>
+</div></div>
+</body></html>
